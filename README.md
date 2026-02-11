@@ -1,409 +1,446 @@
-# LunosPay
+# LunosPay ⚡
 
-## Decentralized Payment Gateway for Solana
+### The future of payments is here. Fast. Cheap. Decentralized.
 
-LunosPay is a peer-to-peer payment processing platform built on the Solana blockchain. We're making crypto payments as simple as traditional payment processors, but faster, cheaper, and without intermediaries.
+<div align="center">
 
----
+![LunosPay Overview](https://github.com/user-attachments/assets/74118cde-4aa1-48de-b241-56084c4a4fec)
 
-## Overview
+**Process Solana payments in less than 500ms**
 
-![WhatsApp Image 2026-02-10 at 15 02 59 (1)](https://github.com/user-attachments/assets/7305394a-a824-4267-b0fe-c1c13189873f)
+[🚀 Get Started](https://lunospay.dev) • [📖 Documentation](https://docs.lunospay.dev) • [💬 Discord](https://discord.gg/lunospay)
 
-
-LunosPay eliminates the friction from accepting blockchain payments. Whether you're a developer building the next web3 app or a startup processing millions in transactions, LunosPay provides the infrastructure you need.
-
-### The Problem We Solve
-
-Traditional payment processors like Stripe charge 2.9% + $0.30 per transaction with 2-3 day settlement. They don't support crypto payments and create vendor lock-in.
-
-LunosPay solves this with:
-
-- 1% transaction fee (65% cheaper than Stripe)
-- Instant settlement on blockchain
-- No intermediaries, no vendor lock-in
-- Built for developers, by developers
+</div>
 
 ---
 
-## Key Features
+## 💰 Why LunosPay?
 
-[Add image: Feature comparison chart]
+### **1% fee. Instant settlement. Zero bureaucracy.**
 
-### For Developers
-
-**Simple Integration**
-Integrate LunosPay payments in 5 minutes with our REST API and SDKs.
+For every $1 million processed, you save **$19,000** in fees. Money hits your wallet in seconds, not days.
 
 ```javascript
+// This is how the payment revolution starts
 import { LunosPay } from '@lunospay/sdk';
 
 const payment = await LunosPay.createPayment({
   merchantWallet: 'your-solana-wallet',
-  amount: 0.1,
-  token: 'SOL'
+  amount: 100,
+  token: 'USDC'
 });
 
-// Get QR code and payment URL
-console.log(payment.qrCode);
-console.log(payment.paymentUrl);
+// Done. Payment created in 3 lines.
 ```
 
-**Better Developer Experience**
-Clear documentation, interactive examples, and 24/7 support. No confusing setup, no merchant accounts to wait for.
+### **Built to Scale**
 
-**Webhooks & Real-Time Updates**
-Receive instant notifications when payments are confirmed on-chain.
-
-### For Merchants
-
-**Lower Costs**
-Cut payment processing fees from 2.9% to 1%. On $1M in annual transactions, that's $19,000 saved.
-
-**Instant Settlement**
-Get paid immediately. No 2-3 day waiting period. Funds appear in your wallet in seconds.
-
-**Multi-Currency Support**
-Accept payments in SOL, USDC, USDT, and other SPL tokens. Automatic conversions available.
-
-**Automatic Splits**
-Distribute payments automatically between multiple wallets. Perfect for revenue sharing and team payouts.
-
-### For Enterprises
-
-**White-Label Solution**
-White-label LunosPay and offer it to your customers under your brand.
-
-**Compliance Ready**
-KYC/AML support, regulatory compliance tools, and detailed audit logs.
-
-**Dedicated Support**
-Your own account manager, priority support, and custom integration assistance.
+- ⚡ **500ms** - Average confirmation time
+- 🔒 **99.99%** - Guaranteed uptime
+- 💎 **$10M+ USDC** - Processed monthly
+- 🌍 **500+** - Active projects
 
 ---
 
-## How It Works
+## 🎯 Three Pillars, One Goal
 
-[Add image: Payment flow diagram]
+### 🚀 **Blockchain Speed**
 
-1. Merchant creates payment request via API
-2. Customer scans QR code or clicks payment link
-3. Payment confirmed on Solana blockchain in milliseconds
-4. Webhook notification sent to merchant
-5. Funds settle instantly in merchant wallet
+Forget 2-3 day waiting periods. With Solana, your payment confirms before you finish reading this sentence. Instant settlement. No intermediaries. No waiting.
 
-The entire flow takes less than 30 seconds from start to finish.
+### 💸 **Real Savings**
 
----
+1% fee. That's it. The more you process, the more you save. Volume discounts available. No hidden fees. No surprises at month-end.
 
-## Product Comparison
+### 🛠️ **Built for Developers**
 
-[Add image: Comparison table - LunosPay vs Stripe vs PayPal]
-
-| Feature | LunosPay | Stripe | PayPal |
-|---------|----------|--------|--------|
-| Transaction Fee | 1% | 2.9% + $0.30 | 2.2% + $0.30 |
-| Settlement Time | Instant | 1-2 days | 1-2 days |
-| Crypto Support | Native | No | Limited |
-| API Complexity | Simple | Complex | Moderate |
-| Setup Time | 5 minutes | 1-2 hours | 30 minutes |
-| On-Chain | Yes | No | No |
-| No Lock-In | Yes | Limited | Limited |
+If you can `npm install`, you can integrate LunosPay. Intuitive RESTful API. SDKs in all popular languages. Documentation that actually explains. 24/7 support that understands code.
 
 ---
 
-## Use Cases
+## ⚙️ How It Works
 
-[Add image: Grid of use case icons/illustrations]
+**The entire process takes less than 30 seconds.**
 
-### E-Commerce
-Accept Solana payments directly in your store. Reduce payment friction and fraud.
-
-### SaaS & Digital Services
-Process subscriptions and one-time payments without payment processors.
-
-### NFT Marketplaces
-Built-in support for NFT sales with automatic royalty distribution.
-
-### Gaming
-In-game purchases and player-to-player transactions at scale.
-
-### Freelancing
-Instant global payments without intermediaries or chargebacks.
-
-### Fundraising
-Accept donations and investments directly without intermediaries.
+1. You create payment via API
+2. Customer scans QR code or clicks link
+3. Blockchain confirms in milliseconds
+4. You receive webhook notification
+5. Money in wallet. Instantly.
 
 ---
 
-## Pricing
+## 🎨 Use Cases
 
-[Add image: Pricing tiers illustration]
+<table>
+<tr>
+<td width="50%">
 
-### Free
-- Up to 100 transactions/month
-- 1% transaction fee
+### 🛒 **E-Commerce**
+Accept crypto payments directly in your store. Reduce fraud. Increase conversion. Zero chargebacks.
+
+### 💻 **SaaS**
+Process subscriptions and one-time payments without traditional processors. Expand globally without friction.
+
+### 🎮 **Gaming**
+In-game purchases and P2P transactions at scale. Microtransactions viable with 1% fees.
+
+</td>
+<td width="50%">
+
+### 🖼️ **NFT Marketplaces**
+Native support for NFT sales with automatic royalty distribution.
+
+### 💼 **Freelancing**
+Instant global payments. No intermediaries. No waiting. No bureaucracy.
+
+### 🎯 **Fundraising**
+Accept donations and investments directly. Total on-chain transparency.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎁 What You Get
+
+<div align="center">
+
+| 🎯 Feature | 💎 Benefit |
+|-----------|-------------|
+| **Multi-Currency** | SOL, USDC, USDT and all SPL tokens |
+| **Automatic Splits** | Distribute revenue across multiple wallets |
+| **Real-Time Webhooks** | Instant confirmation notifications |
+| **Analytics Dashboard** | Visualize all transactions in real-time |
+| **White-Label** | Offer to your customers under your brand |
+| **KYC/AML Ready** | Regulatory compliance included |
+
+</div>
+
+---
+
+## 💎 Plans & Pricing
+
+<table>
+<tr>
+<td width="25%">
+
+### 🆓 Free
+**To get started**
+
+- 100 transactions/month
+- 1% fee
 - Email support
-- Basic webhook support
+- Basic webhooks
+- Full dashboard
 
-Get API Key
+[**Create Account →**](https://lunospay.dev)
 
-### Starter
+</td>
+<td width="25%">
+
+### 🚀 Starter
+**$49/month**
+
 - Unlimited transactions
-- 0.8% transaction fee
-- $49/month
-- Priority email support
-- Custom webhook settings
-- Analytics dashboard
-
-Start Free Trial
-
-### Growth
-- Unlimited transactions
-- 0.5% transaction fee
-- $299/month
-- 24/7 phone support
-- Dedicated account manager
-- Custom integrations
-
-Contact Sales
-
-### Enterprise
-- Custom pricing
-- Custom transaction fee
-- White-label solution
-- Compliance features
-- Custom SLA
-
-Contact Us
-
----
-
-## Roadmap
-
-[Add image: Timeline visualization]
-
-### Phase 1: MVP (Q2 2025)
-- Core payment processing
-- Dashboard and API
-- Basic analytics
-- Devnet launch
-
-### Phase 2: Growth (Q3 2025)
-- Mobile app
-- SDKs (JavaScript, Python, Go)
-- Plugin for Shopify and WooCommerce
-- Mainnet launch
-
-### Phase 3: Scale (Q4 2025)
-- White-label solution
+- 0.8% fee
+- Priority support
+- Custom webhooks
 - Advanced analytics
-- Compliance suite
-- Global partnerships
 
-### Phase 4: Ecosystem (2026+)
-- Enterprise features
+[**Free Trial →**](https://lunospay.dev)
+
+</td>
+<td width="25%">
+
+### 📈 Growth
+**$299/month**
+
+- Unlimited transactions
+- 0.5% fee
+- 24/7 support
+- Account manager
 - Custom integrations
-- Loyalty programs
-- Developer marketplace
+
+[**Talk to Sales →**](https://lunospay.dev)
+
+</td>
+<td width="25%">
+
+### 🏢 Enterprise
+**Custom**
+
+- Everything in Growth +
+- Negotiable fee
+- White-label
+- Custom SLA
+- Compliance suite
+
+[**Contact →**](https://lunospay.dev)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Technology Stack
+## 🛣️ Roadmap
 
-Built with the best tools for blockchain payments:
+![LunosPay Roadmap](https://github.com/user-attachments/assets/e593f099-1d05-4ad4-bcd7-1d73acc5cb15)
 
-### Blockchain
-- Solana Network (devnet, testnet, mainnet)
-- Solana Web3.js for blockchain interaction
-- Program Derived Addresses (PDAs) for escrow
-- Jupiter DEX for token conversion
+<details>
+<summary><b>📍 Q2 2025 - MVP</b></summary>
 
-### Backend
-- Node.js with TypeScript
-- Express.js for REST API
-- PostgreSQL for data storage
-- Redis for caching
-- Jest for testing
+- ✅ Core payment processing
+- ✅ Dashboard and REST API
+- ✅ Basic analytics
+- ✅ Devnet launch
 
-### Frontend
-- Next.js 14 with React 18
-- TypeScript for type safety
-- Tailwind CSS for styling
-- Recharts for analytics
+</details>
 
-### Infrastructure
-- Docker for containerization
-- GitHub Actions for CI/CD
-- AWS for cloud hosting
-- Sentry for error tracking
-- Datadog for monitoring
+<details>
+<summary><b>📍 Q3 2025 - Growth</b></summary>
 
----
+- 📱 Mobile app (iOS + Android)
+- 🔧 SDKs (JavaScript, Python, Go, Rust)
+- 🛍️ Shopify & WooCommerce plugins
+- 🚀 Mainnet launch
 
-## Security
+</details>
 
-[Add image: Security features diagram]
+<details>
+<summary><b>📍 Q4 2025 - Scale</b></summary>
 
-### Trustless Escrow
-Payments are held in smart contracts (PDAs) until confirmed on-chain. No centralized custody of funds.
+- 🎨 Full white-label
+- 📊 Advanced analytics
+- 🏛️ Compliance suite
+- 🌍 Global partnerships
 
-### Signature Verification
-All webhooks are cryptographically signed. Verify authenticity on your end.
+</details>
 
-### Rate Limiting
-API calls are rate-limited to prevent abuse. Limits scale with your plan.
+<details>
+<summary><b>📍 2026+ - Ecosystem</b></summary>
 
-### Regular Audits
-Smart contracts are audited by third-party security firms. Full audit reports available.
+- 🏢 Enterprise features
+- 🔗 Custom integrations
+- 🎁 Loyalty programs
+- 🛒 Developer marketplace
 
-### Open Source
-Core components are open source. Review code on GitHub.
+</details>
 
 ---
 
-## Getting Started
+## 🚀 Quick Start
 
 ### For Developers
 
-1. Sign up at lunospay.dev
-2. Create API key in dashboard
-3. Install SDK: npm install @lunospay/sdk
-4. Follow 5-minute quickstart guide
-5. Test in devnet
-6. Go live on mainnet
+```bash
+# 1. Install SDK
+npm install @lunospay/sdk
 
-Documentation: docs.lunospay.dev
-API Reference: api.lunospay.dev/docs
+# 2. Configure credentials
+export LUNOSPAY_API_KEY="your-api-key"
 
-### For Merchants
+# 3. Create your first payment
+node your-code.js
+```
 
-1. Visit lunospay.dev
-2. Create account
-3. Add wallet address
-4. Start accepting payments
-5. View analytics in dashboard
+```javascript
+import { LunosPay } from '@lunospay/sdk';
 
-Dashboard: app.lunospay.dev
-Support: support@lunospay.dev
+// Initialize
+const lunos = new LunosPay({ 
+  apiKey: process.env.LUNOSPAY_API_KEY 
+});
 
----
+// Create a payment
+const payment = await lunos.createPayment({
+  amount: 50,
+  currency: 'USDC',
+  merchantWallet: 'your-solana-wallet',
+  description: 'Purchase of product X'
+});
 
-## Metrics
+// Share with customer
+console.log('QR Code:', payment.qrCode);
+console.log('Link:', payment.paymentUrl);
 
-[Add image: Statistics/metrics visualization]
+// Setup webhook (optional)
+lunos.onPaymentConfirmed((data) => {
+  console.log('Payment confirmed!', data);
+});
+```
 
-- 500+ projects using LunosPay
-- 10M+ USDC processed monthly
-- 99.99% uptime SLA
-- 50ms average payment confirmation
-- 0% payment failures on mainnet
+**Done! In less than 5 minutes you're processing payments.**
 
----
-
-## Community
-
-Join thousands of developers building with LunosPay.
-
-- Discord: discord.gg/lunospay (2,000+ members)
-- Twitter: twitter.com/lunospaydev (10,000+ followers)
-- GitHub: github.com/lunospay
-- Blog: blog.lunospay.dev
+📖 [Full Documentation](https://docs.lunospay.dev)
+🔐 [API Reference](https://api.lunospay.dev/docs)
 
 ---
 
-## Open Source
+## 🏗️ Tech Stack
 
-LunosPay is committed to open source development.
+<div align="center">
 
-### Core Repositories
+**Blockchain**
+```
+Solana • Web3.js • PDAs • Jupiter DEX
+```
 
-- lunospay-core: Smart contracts and blockchain interaction
-- lunospay-api: REST API and backend
-- lunospay-sdk: Official JavaScript SDK
-- lunospay-dashboard: Merchant dashboard
+**Backend**
+```
+Node.js • TypeScript • Express • PostgreSQL • Redis
+```
 
-### Contributing
+**Frontend**
+```
+Next.js 14 • React 18 • TailwindCSS • Recharts
+```
 
-We welcome contributions. See CONTRIBUTING.md for guidelines.
+**Infrastructure**
+```
+Docker • GitHub Actions • AWS • Sentry • Datadog
+```
 
-### License
-
-Licensed under MIT. See LICENSE file.
-
----
-
-## Made With
-
-LunosPay is built by a team passionate about making blockchain payments accessible.
-
-### Team
-
-- Co-founders with 15+ years experience in fintech and blockchain
-- Engineers from top companies (Stripe, Coinbase, OpenZeppelin)
-- Security researchers with blockchain audit background
-
-### Partners
-
-- Supported by Solana Foundation
-- Infrastructure provided by AWS
-- Security audits by Trail of Bits
-- Integrations with major Solana projects
+</div>
 
 ---
 
-## Frequently Asked Questions
+## 🔒 Security First
 
-**How long does a payment take?**
-Payments confirm in 400-500ms. You'll receive webhook confirmation instantly.
+<table>
+<tr>
+<td width="33%">
 
-**What if a transaction fails?**
-Failed transactions are automatically retried. Funds are never lost.
+### 🛡️ Trustless Escrow
+Payments in smart contracts (PDAs). Zero centralized custody.
 
-**Can I white-label LunosPay?**
-Yes, our Enterprise plan includes white-label solution with custom branding.
+</td>
+<td width="33%">
 
-**Do you support other blockchains?**
+### ✍️ Signature Verification
+All webhooks cryptographically signed. Full verification.
+
+</td>
+<td width="33%">
+
+### 🔍 Regular Audits
+Contracts audited by specialized firms. Public reports.
+
+</td>
+</tr>
+</table>
+
+**Open Source:** Core code available on GitHub. Total transparency.
+
+---
+
+## 👥 Community
+
+<div align="center">
+
+[![Discord](https://img.shields.io/badge/Discord-2000%2B%20members-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/lunospay)
+[![Twitter](https://img.shields.io/badge/Twitter-10K%2B%20followers-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lunospaydev)
+[![GitHub](https://img.shields.io/badge/GitHub-Open%20Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lunospay)
+
+**Join thousands of developers building the future of payments.**
+
+</div>
+
+---
+
+## 📦 Open Source
+
+Committed to transparency and collaboration:
+
+- **lunospay-core** - Smart contracts and blockchain
+- **lunospay-api** - REST API and backend
+- **lunospay-sdk** - Official JavaScript SDK
+- **lunospay-dashboard** - Merchant dashboard
+
+💡 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+📄 License: MIT
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><b>How long does a payment take?</b></summary>
+<br>
+Confirmation in 400-500ms. Instant webhook.
+</details>
+
+<details>
+<summary><b>What if the transaction fails?</b></summary>
+<br>
+Automatic retry. Funds are never lost.
+</details>
+
+<details>
+<summary><b>Can I white-label it?</b></summary>
+<br>
+Yes! Enterprise plan includes complete white-label solution.
+</details>
+
+<details>
+<summary><b>Do you support other blockchains?</b></summary>
+<br>
 Currently Solana only. Other chains planned for 2026.
+</details>
 
-**Is LunosPay regulated?**
-We implement KYC/AML for enterprise customers. Regulatory roadmap: see docs.
+<details>
+<summary><b>How do you make money?</b></summary>
+<br>
+1% fee on transactions. Sustainable model with volume discounts.
+</details>
 
-**What happens if Solana goes down?**
-Network downtime is rare (99.99% historical uptime). Your payment attempts are queued and processed when network recovers.
+<details>
+<summary><b>Can I cancel anytime?</b></summary>
+<br>
+Yes! No long-term contracts. Cancel anytime.
+</details>
 
-**How do you make money?**
-We take 1% of transaction fees. We're profitable at scale and offer volume discounts.
-
-**Can I cancel anytime?**
-Yes, no long-term contracts. Cancel anytime.
-
-More Q&A: faq.lunospay.dev
-
----
-
-## Contact
+[**See all FAQs →**](https://faq.lunospay.dev)
 
 ---
 
-## Follow Us
+## 🎯 Ready to Start?
 
-Stay updated on LunosPay developments:
+<div align="center">
 
----
+### **Process your first payment in less than 5 minutes**
 
-## License
-
-Licensed under the MIT License. See LICENSE file.
-
----
-
-## Copyright
-
-(c) 2025 LunosPay, Inc. All rights reserved.
+[![Get Started](https://img.shields.io/badge/🚀_Get_Started-Free-667eea?style=for-the-badge)](https://lunospay.dev)
+[![View Docs](https://img.shields.io/badge/📖_Documentation-Read-48bb78?style=for-the-badge)](https://docs.lunospay.dev)
+[![Talk to Sales](https://img.shields.io/badge/💬_Sales-Contact-f56565?style=for-the-badge)](mailto:sales@lunospay.dev)
 
 ---
 
-**Build something amazing with LunosPay**
+**Build something amazing with LunosPay** ⚡
 
-Start building today at lunospay.dev
+</div>
+
+---
+
+<div align="center">
+
+### 📬 Contact
+
+**Email:** support@lunospay.dev  
+**Sales:** sales@lunospay.dev  
+**Security:** security@lunospay.dev
+
+**Website:** [lunospay.dev](https://lunospay.dev)  
+**Dashboard:** [app.lunospay.dev](https://app.lunospay.dev)  
+**Status:** [status.lunospay.dev](https://status.lunospay.dev)
+
+---
+
+MIT License © 2025 LunosPay, Inc.
+
+**Made with 💜 for developers**
+
+</div>
